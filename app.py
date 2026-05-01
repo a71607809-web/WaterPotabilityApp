@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('water_potability_model (2).pkl')
+model = joblib.load('water_potability_model (1).pkl')
 st.title(" Water Potability Prediction")
 st.write("Enter the water characteristics below to check if it's safe to drink or not")
 
